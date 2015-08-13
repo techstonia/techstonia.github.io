@@ -1,0 +1,18 @@
+# Site settings
+title: techstonia
+author: techstonia
+header-img: img/boy.jpg
+email: techstonia@gmail.com
+description: "A blog about tech"
+
+baseurl: ""
+url: "techstonia.github.io"
+twitter_username: techstonia
+github_username:  techstonia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: none
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
