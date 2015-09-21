@@ -7,6 +7,7 @@ subtitle:  "Lately I ported a substantial chunk of Scala into Python. This is a 
 author: techstonia
 permalink: porting-scala-to-python.html
 ---
+*This post was featured on [PyCoders Weekly #151](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=686dc9891c).*
 
 Lately I had to port 16 thousand lines of Scala code into Python. The task seemed odd at first as usually the Python code is re-written in Scala and not the other way round. Anyway it's done now and I managed to pick up some Scala skills and also observed the difficulties of translating between those two languages. Before I start: I just want to mention that Scala is a very cool language and I hope to work with Scala again in the near future.
 

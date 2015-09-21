@@ -9,6 +9,8 @@ author: techstonia
 permalink: twilio-voice-blog.html
 ---
 
+*This post was featured on [PyCoders Weekly #157](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=cf56544e52).*
+
 Recently I played with [Twilio](https://www.twilio.com/) API. Their service is mind-blowingly simple - it took me about 50 lines of Python code to set up a MVP. No, I'm not going to start a Twitter-meets-audio kind of startup - you can [steal the idea](http://bubbly.net/). Basically I just have to call a specific number, tell my message and the audio goes to my website. You can find the humblingly minimal audioblogging platform here: [https://twog.herokuapp.com/](https://twog.herokuapp.com/).
 
 ##Okay, how can I get this to work? 
