@@ -395,3 +395,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+li a {
+  text-decoration: underline;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
