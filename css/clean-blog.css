@@ -403,3 +403,7 @@ li a {
 .no-text-decoration {
   text-decoration: none;
 }
+
+.item-description {
+  font-size: 87%;
+}
