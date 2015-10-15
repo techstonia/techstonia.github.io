@@ -407,3 +407,8 @@ li a {
 .item-description {
   font-size: 87%;
 }
+
+.img-portfolio:hover {
+  cursor: pointer;
+  cursor: hand;
+}
