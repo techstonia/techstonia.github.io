@@ -27,7 +27,6 @@ layout: default
 
 				{{ content }}
 
-                <hr>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
                 <form action="//github.us12.list-manage.com/subscribe/post?u=ea5bd8174bfd35b2a41e48551&amp;id=19b8af61a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -37,7 +36,7 @@ layout: default
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ea5bd8174bfd35b2a41e48551_19b8af61a0" tabindex="-1" value=""></div>
                         
                         <div class="call-to-action-text text-center">
-                            <i>Get an email when I write a new post — no bullshit ever</i>
+                            <i>Get an email whener I publish a new post — no bullshit ever</i>
                         </div>
                         <div id="container-email-submit">
                             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
@@ -47,22 +46,8 @@ layout: default
                 </form>
                 </div>
                 <!--End mc_embed_signup-->
+            
                 <hr>
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-                <br>
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES * * */
