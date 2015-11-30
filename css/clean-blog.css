@@ -454,6 +454,8 @@ li a {
   font-style: normal;
   padding-left: 15px;
   font-weight: bold;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 
 #container-email-submit input.button {
@@ -462,7 +464,7 @@ li a {
   height: 50px;
   border-radius: 0%;
   border: 2px solid #0085a1;
-  line-height: 48px;
+  line-height: 50px;
   font-family: sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -479,7 +481,7 @@ li a {
   height: 50px;
   border-radius: 0%;
   border: 2px solid #0085a1;
-  line-height: 48px;
+  line-height: 50px;
   font-family: sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
