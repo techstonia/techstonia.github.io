@@ -412,3 +412,85 @@ li a {
   cursor: pointer;
   cursor: hand;
 }
+
+/* 
+  Mailchimp stuff 
+*/
+
+.call-to-action-text {
+  font-weight: bold;
+}
+
+#container-email-submit {
+  width: 100%; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+#container-email-submit ::-webkit-input-placeholder {
+  color: #0085a1;
+}
+
+#container-email-submit :-moz-placeholder { /* Firefox 18- */
+  color: #0085a1;  
+}
+
+#container-email-submit ::-moz-placeholder {  /* Firefox 19+ */
+  color: #0085a1;  
+}
+
+#container-email-submit :-ms-input-placeholder {  
+  color: #0085a1;  
+}
+
+#container-email-submit input.email {
+  display: inline-block;
+  border: 2px solid #0085a1;
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #0085a1;
+  letter-spacing: 2px;
+  font-style: normal;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+#container-email-submit input.button {
+  display: inline-block;
+  width: 135px;
+  height: 50px;
+  border-radius: 0%;
+  border: 2px solid #0085a1;
+  line-height: 48px;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+  background-color: #0085a1;
+  padding-top: 0px;
+}
+
+#container-email-submit input.button {
+  display: inline-block;
+  width: 135px;
+  height: 50px;
+  border-radius: 0%;
+  border: 2px solid #0085a1;
+  line-height: 48px;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+  background-color: #0085a1;
+  padding-top: 0px;
+}
+
+#container-email-submit input.button:hover {
+  color: #0085a1;
+  background-color: white;
+}
