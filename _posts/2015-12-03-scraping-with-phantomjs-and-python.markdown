@@ -5,10 +5,10 @@ date:     2015-12-03 10:00:00
 subtitle: "Learn how to parse JavaScript heavy sites with Python, Selenium and PhantomJS."
 author: techstonia
 ---
-This tutorial explores how to scrape sites where the content is loaded dynamically via JavaScript. The tools we use are Python, PhantomJS and Selenium. You can clone the github repository from [here](https://github.com/techstonia/scraping_phantomjs). 
+This tutorial explores how to scrape sites where the content is loaded dynamically via JavaScript. The tools we use are Python, PhantomJS and Selenium. You can clone the github repository from <a href="https://github.com/techstonia/scraping_phantomjs" target="_blank">here</a>.
 
 ## Problem
-Nowadays a lots of sites use JavaScript to load their content dynamically. For example let's take a look at [ATP Singles USA tennis results 2015](http://www.scoreboard.com/en/tennis/atp-singles/us-open-2015/results/). You can see that all the matches are listed below:
+Nowadays a lots of sites use JavaScript to load their content dynamically. For example let's take a look at <a href="http://www.scoreboard.com/en/tennis/atp-singles/us-open-2015/results/" target="_blank">ATP Singles USA tennis results 2015</a>. You can see that all the matches are listed below:
 
 <img class='img-responsive center-block' src='img/scoreboard-tennis.png'>
 
@@ -62,7 +62,7 @@ games = soup.find_all('tr', {'class': 'stage-finished'})
 print(games[0].prettify())
 {% endhighlight %}
 
-NB! In order for this script to work we must specify where to find PhantomJS. The phantomjs file can be found from [here](https://bitbucket.org/ariya/phantomjs/downloads). Just download correct version and unpack it and then the file can be found under the bin folder. Just copy the file into the same folder as the scraper.py script.
+NB! In order for this script to work we must specify where to find PhantomJS. The phantomjs file can be found from <a href="https://bitbucket.org/ariya/phantomjs/downloads" target="_blank">here</a>. Just download correct version and unpack it and then the file can be found under the bin folder. Just copy the file into the same folder as the scraper.py script.
 
 Now lets run that script:
 
@@ -100,4 +100,4 @@ and we get the html for the first match, which happened between Djokovic and Fed
 {% endhighlight %}
 
 ## Summary
-As we saw it's relatively easy to get dynamically loaded content, although it's a bit slower than the traditional method of just firing a request to the server. You can clone the github repository from [here](https://github.com/techstonia/scraping_phantomjs). 
+As we saw it's relatively easy to get dynamically loaded content, although it's a bit slower than the traditional method of just firing a request to the server. You can clone the github repository from <a href="https://github.com/techstonia/scraping_phantomjs" target="_blank">here</a>.
