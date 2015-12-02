@@ -62,9 +62,9 @@ games = soup.find_all('tr', {'class': 'stage-finished'})
 print(games[0].prettify())
 {% endhighlight %}
 
-NB! In order for this script to work we must specify where to find PhantomJS. The phantomjs file can be found from <a href="https://bitbucket.org/ariya/phantomjs/downloads" target="_blank">here</a>. Just download correct version and unpack it and then the file can be found under the bin folder. Just copy the file into the same folder as the scraper.py script.
+NB! In order for this script to work we must specify where to find PhantomJS. The phantomjs file can be found from <a href="https://bitbucket.org/ariya/phantomjs/downloads" target="_blank">here</a>. Just download the correct version according to your operating system. Then unpack it and the file named 'phantomjs' can be found under the bin folder. Copy the file into the same folder as the scraper.py script.
 
-Now lets run that script:
+Now lets run our script:
 
 {% highlight bash %}
 (venv)techstonia:~$ python scraper.py 
