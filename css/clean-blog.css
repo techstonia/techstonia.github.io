@@ -417,14 +417,26 @@ li a {
   Mailchimp stuff 
 */
 
+.validate {
+  margin-top: 25px;
+}
+
 .call-to-action-text {
   font-weight: bold;
+}
+
+.call-to-twitter {
+  margin-top: 15px;
+}
+
+.call-to-twitter em {
+  text-decoration: underline;
 }
 
 #container-email-submit {
   width: 100%; 
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #container-email-submit ::-webkit-input-placeholder {
