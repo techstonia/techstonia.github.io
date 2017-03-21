@@ -1,0 +1,21 @@
+---
+layout:   post
+title:    "Unibet Tracker"
+date:     2016-09-14 10:00:00
+subtitle: "HEM like Chrome extension."
+author: techstonia
+---
+I made a <a href="https://chrome.google.com/webstore/detail/u-tracker/ahjdheidpdofgigipopceegadiieldoe" target="_blank">chrome extension</a> for playing poker at Unibet. It's basically a mini HEM/PT3, which shows graphs and stats for cash games and tourneys. For those who don't know what HEM/PT3 is let's just say that it's a software that displays and collects stats and is useful if you play online poker.
+
+<img class='img-responsive center-block' src='img/u-tracker.png'>
+
+How to use?
+
+1. <a href="https://chrome.google.com/webstore/detail/u-tracker/ahjdheidpdofgigipopceegadiieldoe" target="_blank">Install the extension</a>
+2. log into Unibet and keep the tab open
+3. Press the extension button
+4. A new tab opens with some stats about your recent poker results
+
+P.S. The extension calculates it's stats from the buy-in and sit-out amounts as Unibet doesn't offer an easy way to use hand-by-hand information
+
+<a href="https://chrome.google.com/webstore/detail/u-tracker/ahjdheidpdofgigipopceegadiieldoe" target="_blank">Get the extension</a>
